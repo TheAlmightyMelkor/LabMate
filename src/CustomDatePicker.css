@@ -1,0 +1,8 @@
+.weekend {
+  color: red !important; /* Cambia il colore del testo per i weekend in rosso */
+  /* Aggiungi altre regole di stile per personalizzare l'aspetto dei weekend */
+}
+.disabled {
+  pointer-events: none;
+  opacity: 0.5;
+}
