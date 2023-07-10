@@ -1,4 +1,5 @@
 import React, { useState, useRef } from 'react';
+//import { LabMate } from '@backstage/core-plugin-api';
 import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
 import './style.css';
@@ -13,7 +14,7 @@ import Logo from './logo.svg';
 import Col from 'react-bootstrap/Col';
 import Container from 'react-bootstrap/Container';
 
-export default function App() {
+export default function LabMate() {
   const [open, setOpen] = useState(false);
   const [selectedElement, setSelectedElement] = useState();
   const [startDate, setStartDate] = useState(null);
@@ -1427,4 +1428,4 @@ export default function App() {
     </>
   );
 };
-export default App;
+export default LabMate;
